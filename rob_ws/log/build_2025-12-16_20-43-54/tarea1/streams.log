@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target follow[0m
+[0.058s] [ 40%] Built target velocidad
+[0.058s] [ 40%] Built target circulo
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+[0.062s] [ 70%] Built target posicion
+[0.064s] [ 90%] Built target posicion_control
+[1.494s] In file included from [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:1[m[K:
+[1.494s] [01m[K/home/maria/rob_ws/src/tarea1/include/tarea1/follow.hpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+[1.494s]    10 | }
+[1.494s]       |  [01;31m[K^[m[K
+[1.494s]       |  [32m[K;[m[K
+[3.178s] gmake[2]: *** [CMakeFiles/follow.dir/build.make:76: CMakeFiles/follow.dir/src/follow.cpp.o] Error 1
+[3.179s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/follow.dir/all] Error 2
+[3.179s] gmake: *** [Makefile:146: all] Error 2
+[3.181s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12

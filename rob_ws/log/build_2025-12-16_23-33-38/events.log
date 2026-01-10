@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000847] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.001319] (tarea1) JobQueued: {'identifier': 'tarea1', 'dependencies': OrderedDict()}
+[0.001541] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.014132] (tarea1) JobStarted: {'identifier': 'tarea1'}
+[0.030777] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.032568] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.035834] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maria/rob_ws/build/micro_ros_agent', '--', '-j12', '-l12'], 'cwd': '/home/maria/rob_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maria'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maria/rob_ws/install/micro_ros_agent/lib:/home/maria/rosgame_ws/install/rosgame_msgs/lib:/home/maria/rosgame_ws/install/rosgame_bridge/lib:/home/maria/cypr_ws/install/navigation/lib:/home/maria/cypr_ws/install/motion/lib:/home/maria/cypr_ws/install/localization/lib:/home/maria/clase_ws/install/first_pkg/lib:/home/maria/dev_ws/install/ejercicio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maria'), ('OLDPWD', '/home/maria'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maria/rob_ws/install:/home/maria/irb_ws/install:/home/maria/rosgame_ws/install:/home/maria/clase_ws/install:/home/maria/dev_ws/install:/home/maria/cypr_ws/install:/home/maria/tarea/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maria'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/maria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maria-RLEF-XX:@/tmp/.ICE-unix/1580,unix/maria-RLEF-XX:/tmp/.ICE-unix/1580'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c94fc83_5004_4c9e_94fd_808640af9dc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZM7H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maria/rob_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maria/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/maria/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/maria/clase_ws/install/first_pkg/local/lib/python3.10/dist-packages:/home/maria/dev_ws/install/ejercicio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble')]), 'shell': False}
+[0.044597] (tarea1) JobProgress: {'identifier': 'tarea1', 'progress': 'cmake'}
+[0.046749] (tarea1) JobProgress: {'identifier': 'tarea1', 'progress': 'build'}
+[0.047802] (tarea1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maria/rob_ws/build/tarea1', '--', '-j12', '-l12'], 'cwd': '/home/maria/rob_ws/build/tarea1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maria'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maria/rob_ws/install/micro_ros_agent/lib:/home/maria/rosgame_ws/install/rosgame_msgs/lib:/home/maria/rosgame_ws/install/rosgame_bridge/lib:/home/maria/cypr_ws/install/navigation/lib:/home/maria/cypr_ws/install/motion/lib:/home/maria/cypr_ws/install/localization/lib:/home/maria/clase_ws/install/first_pkg/lib:/home/maria/dev_ws/install/ejercicio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maria'), ('OLDPWD', '/home/maria'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maria/rob_ws/install:/home/maria/irb_ws/install:/home/maria/rosgame_ws/install:/home/maria/clase_ws/install:/home/maria/dev_ws/install:/home/maria/cypr_ws/install:/home/maria/tarea/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maria'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/maria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maria-RLEF-XX:@/tmp/.ICE-unix/1580,unix/maria-RLEF-XX:/tmp/.ICE-unix/1580'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c94fc83_5004_4c9e_94fd_808640af9dc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZM7H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maria/rob_ws/build/tarea1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maria/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/maria/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/maria/clase_ws/install/first_pkg/local/lib/python3.10/dist-packages:/home/maria/dev_ws/install/ejercicio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble')]), 'shell': False}
+[0.098749] (-) TimerEvent: {}
+[0.209025] (tarea1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow\x1b[0m\n'}
+[0.209946] (-) TimerEvent: {}
+[0.280812] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[0.297743] (tarea1) StdoutLine: {'line': b'[ 20%] Built target posicion\n'}
+[0.298502] (tarea1) StdoutLine: {'line': b'[ 40%] Built target circulo\n'}
+[0.313809] (-) TimerEvent: {}
+[0.317620] (tarea1) StdoutLine: {'line': b'[ 60%] Built target posicion_control\n'}
+[0.328278] (tarea1) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o\x1b[0m\n'}
+[0.328915] (tarea1) StdoutLine: {'line': b'[ 90%] Built target velocidad\n'}
+[0.370471] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.375065] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[0.411196] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maria/rob_ws/build/micro_ros_agent'], 'cwd': '/home/maria/rob_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maria'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maria/rob_ws/install/micro_ros_agent/lib:/home/maria/rosgame_ws/install/rosgame_msgs/lib:/home/maria/rosgame_ws/install/rosgame_bridge/lib:/home/maria/cypr_ws/install/navigation/lib:/home/maria/cypr_ws/install/motion/lib:/home/maria/cypr_ws/install/localization/lib:/home/maria/clase_ws/install/first_pkg/lib:/home/maria/dev_ws/install/ejercicio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maria'), ('OLDPWD', '/home/maria'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maria/rob_ws/install:/home/maria/irb_ws/install:/home/maria/rosgame_ws/install:/home/maria/clase_ws/install:/home/maria/dev_ws/install:/home/maria/cypr_ws/install:/home/maria/tarea/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maria'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/maria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maria-RLEF-XX:@/tmp/.ICE-unix/1580,unix/maria-RLEF-XX:/tmp/.ICE-unix/1580'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c94fc83_5004_4c9e_94fd_808640af9dc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZM7H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maria/rob_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maria/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/maria/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/maria/clase_ws/install/first_pkg/local/lib/python3.10/dist-packages:/home/maria/dev_ws/install/ejercicio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble')]), 'shell': False}
+[0.415102] (-) TimerEvent: {}
+[0.445736] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.450891] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[0.451262] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[0.451481] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[0.458482] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[0.458855] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[0.459104] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[0.461248] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[0.461692] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[0.462004] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[0.462340] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[0.462657] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[0.462941] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[0.463714] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.466584] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[0.467918] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[0.468844] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[0.469882] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[0.471361] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[0.473250] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[0.473698] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.515518] (-) TimerEvent: {}
+[0.531145] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[0.615803] (-) TimerEvent: {}
+[0.716805] (-) TimerEvent: {}
+[0.817516] (-) TimerEvent: {}
+[0.918285] (-) TimerEvent: {}
+[1.019200] (-) TimerEvent: {}
+[1.120131] (-) TimerEvent: {}
+[1.221015] (-) TimerEvent: {}
+[1.321962] (-) TimerEvent: {}
+[1.422921] (-) TimerEvent: {}
+[1.523626] (-) TimerEvent: {}
+[1.624256] (-) TimerEvent: {}
+[1.724837] (-) TimerEvent: {}
+[1.825408] (-) TimerEvent: {}
+[1.926175] (-) TimerEvent: {}
+[2.026689] (-) TimerEvent: {}
+[2.127167] (-) TimerEvent: {}
+[2.227762] (-) TimerEvent: {}
+[2.328331] (-) TimerEvent: {}
+[2.428904] (-) TimerEvent: {}
+[2.529476] (-) TimerEvent: {}
+[2.629999] (-) TimerEvent: {}
+[2.730537] (-) TimerEvent: {}
+[2.831115] (-) TimerEvent: {}
+[2.931738] (-) TimerEvent: {}
+[3.032350] (-) TimerEvent: {}
+[3.132956] (-) TimerEvent: {}
+[3.233494] (-) TimerEvent: {}
+[3.334034] (-) TimerEvent: {}
+[3.434851] (-) TimerEvent: {}
+[3.535658] (-) TimerEvent: {}
+[3.636577] (-) TimerEvent: {}
+[3.737284] (-) TimerEvent: {}
+[3.837957] (-) TimerEvent: {}
+[3.938456] (-) TimerEvent: {}
+[4.039002] (-) TimerEvent: {}
+[4.139631] (-) TimerEvent: {}
+[4.240094] (-) TimerEvent: {}
+[4.340564] (-) TimerEvent: {}
+[4.441006] (-) TimerEvent: {}
+[4.541537] (-) TimerEvent: {}
+[4.642019] (-) TimerEvent: {}
+[4.742361] (-) TimerEvent: {}
+[4.842694] (-) TimerEvent: {}
+[4.943045] (-) TimerEvent: {}
+[5.043383] (-) TimerEvent: {}
+[5.143833] (-) TimerEvent: {}
+[5.244195] (-) TimerEvent: {}
+[5.344588] (-) TimerEvent: {}
+[5.444996] (-) TimerEvent: {}
+[5.545319] (-) TimerEvent: {}
+[5.645662] (-) TimerEvent: {}
+[5.745976] (-) TimerEvent: {}
+[5.846426] (-) TimerEvent: {}
+[5.946870] (-) TimerEvent: {}
+[6.047318] (-) TimerEvent: {}
+[6.147796] (-) TimerEvent: {}
+[6.248271] (-) TimerEvent: {}
+[6.348800] (-) TimerEvent: {}
+[6.449298] (-) TimerEvent: {}
+[6.549659] (-) TimerEvent: {}
+[6.650093] (-) TimerEvent: {}
+[6.750579] (-) TimerEvent: {}
+[6.851063] (-) TimerEvent: {}
+[6.951570] (-) TimerEvent: {}
+[7.051965] (-) TimerEvent: {}
+[7.152330] (-) TimerEvent: {}
+[7.252663] (-) TimerEvent: {}
+[7.353025] (-) TimerEvent: {}
+[7.453470] (-) TimerEvent: {}
+[7.553895] (-) TimerEvent: {}
+[7.654314] (-) TimerEvent: {}
+[7.754743] (-) TimerEvent: {}
+[7.855189] (-) TimerEvent: {}
+[7.955704] (-) TimerEvent: {}
+[8.056206] (-) TimerEvent: {}
+[8.156586] (-) TimerEvent: {}
+[8.256948] (-) TimerEvent: {}
+[8.357457] (-) TimerEvent: {}
+[8.457953] (-) TimerEvent: {}
+[8.558450] (-) TimerEvent: {}
+[8.658914] (-) TimerEvent: {}
+[8.759360] (-) TimerEvent: {}
+[8.859792] (-) TimerEvent: {}
+[8.960252] (-) TimerEvent: {}
+[9.060573] (-) TimerEvent: {}
+[9.161027] (-) TimerEvent: {}
+[9.261511] (-) TimerEvent: {}
+[9.362023] (-) TimerEvent: {}
+[9.462513] (-) TimerEvent: {}
+[9.562991] (-) TimerEvent: {}
+[9.663328] (-) TimerEvent: {}
+[9.763710] (-) TimerEvent: {}
+[9.864142] (-) TimerEvent: {}
+[9.964942] (-) TimerEvent: {}
+[10.065798] (-) TimerEvent: {}
+[10.166440] (-) TimerEvent: {}
+[10.266857] (-) TimerEvent: {}
+[10.367306] (-) TimerEvent: {}
+[10.467671] (-) TimerEvent: {}
+[10.568059] (-) TimerEvent: {}
+[10.668553] (-) TimerEvent: {}
+[10.769034] (-) TimerEvent: {}
+[10.869446] (-) TimerEvent: {}
+[10.969921] (-) TimerEvent: {}
+[11.070385] (-) TimerEvent: {}
+[11.170840] (-) TimerEvent: {}
+[11.271314] (-) TimerEvent: {}
+[11.371716] (-) TimerEvent: {}
+[11.472178] (-) TimerEvent: {}
+[11.572578] (-) TimerEvent: {}
+[11.673031] (-) TimerEvent: {}
+[11.773513] (-) TimerEvent: {}
+[11.874026] (-) TimerEvent: {}
+[11.974487] (-) TimerEvent: {}
+[12.074940] (-) TimerEvent: {}
+[12.175461] (-) TimerEvent: {}
+[12.275893] (-) TimerEvent: {}
+[12.376405] (-) TimerEvent: {}
+[12.476941] (-) TimerEvent: {}
+[12.577490] (-) TimerEvent: {}
+[12.678107] (-) TimerEvent: {}
+[12.778714] (-) TimerEvent: {}
+[12.801637] (tarea1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable follow\x1b[0m\n'}
+[12.878822] (-) TimerEvent: {}
+[12.979397] (-) TimerEvent: {}
+[13.080029] (-) TimerEvent: {}
+[13.180509] (-) TimerEvent: {}
+[13.281117] (-) TimerEvent: {}
+[13.381653] (-) TimerEvent: {}
+[13.482273] (-) TimerEvent: {}
+[13.582910] (-) TimerEvent: {}
+[13.603867] (tarea1) StdoutLine: {'line': b'[100%] Built target follow\n'}
+[13.628372] (tarea1) CommandEnded: {'returncode': 0}
+[13.629735] (tarea1) JobProgress: {'identifier': 'tarea1', 'progress': 'install'}
+[13.630509] (tarea1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maria/rob_ws/build/tarea1'], 'cwd': '/home/maria/rob_ws/build/tarea1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maria'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maria/rob_ws/install/micro_ros_agent/lib:/home/maria/rosgame_ws/install/rosgame_msgs/lib:/home/maria/rosgame_ws/install/rosgame_bridge/lib:/home/maria/cypr_ws/install/navigation/lib:/home/maria/cypr_ws/install/motion/lib:/home/maria/cypr_ws/install/localization/lib:/home/maria/clase_ws/install/first_pkg/lib:/home/maria/dev_ws/install/ejercicio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maria'), ('OLDPWD', '/home/maria'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maria/rob_ws/install:/home/maria/irb_ws/install:/home/maria/rosgame_ws/install:/home/maria/clase_ws/install:/home/maria/dev_ws/install:/home/maria/cypr_ws/install:/home/maria/tarea/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maria'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/maria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maria-RLEF-XX:@/tmp/.ICE-unix/1580,unix/maria-RLEF-XX:/tmp/.ICE-unix/1580'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c94fc83_5004_4c9e_94fd_808640af9dc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZM7H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maria/rob_ws/build/tarea1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maria/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/maria/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/maria/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/maria/clase_ws/install/first_pkg/local/lib/python3.10/dist-packages:/home/maria/dev_ws/install/ejercicio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maria/rob_ws/install/tarea1:/home/maria/rob_ws/install/micro_ros_agent:/home/maria/rosgame_ws/install/warrior_12:/home/maria/rosgame_ws/install/warrior_01:/home/maria/rosgame_ws/install/rosgame_msgs:/home/maria/rosgame_ws/install/rosgame_bridge:/home/maria/irb_ws/install/controller:/home/maria/cypr_ws/install/navigation:/home/maria/cypr_ws/install/motion:/home/maria/cypr_ws/install/localization:/home/maria/cypr_ws/install/keyboard_control:/home/maria/clase_ws/install/extra_package:/home/maria/clase_ws/install/first_pkg:/home/maria/dev_ws/install/ejercicio:/home/maria/tarea/install/laser:/opt/ros/humble')]), 'shell': False}
+[13.648143] (tarea1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.648690] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1\n'}
+[13.648969] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/velocidad\n'}
+[13.649264] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion\n'}
+[13.649529] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/circulo\n'}
+[13.650051] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion_control\n'}
+[13.650759] (tarea1) StdoutLine: {'line': b'-- Installing: /home/maria/rob_ws/install/tarea1/lib/tarea1/follow\n'}
+[13.659227] (tarea1) StdoutLine: {'line': b'-- Set runtime path of "/home/maria/rob_ws/install/tarea1/lib/tarea1/follow" to ""\n'}
+[13.659464] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/package_run_dependencies/tarea1\n'}
+[13.659576] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/parent_prefix_path/tarea1\n'}
+[13.659796] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.sh\n'}
+[13.659903] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.dsv\n'}
+[13.660004] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.sh\n'}
+[13.660098] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.dsv\n'}
+[13.660192] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.bash\n'}
+[13.660294] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.sh\n'}
+[13.660387] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.zsh\n'}
+[13.660475] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.dsv\n'}
+[13.660614] (tarea1) StdoutLine: {'line': b'-- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/package.dsv\n'}
+[13.660775] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/packages/tarea1\n'}
+[13.660861] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config.cmake\n'}
+[13.660963] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config-version.cmake\n'}
+[13.661043] (tarea1) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/package.xml\n'}
+[13.663975] (tarea1) CommandEnded: {'returncode': 0}
+[13.683007] (-) TimerEvent: {}
+[13.683700] (tarea1) JobEnded: {'identifier': 'tarea1', 'rc': 0}
+[13.684655] (-) EventReactorShutdown: {}

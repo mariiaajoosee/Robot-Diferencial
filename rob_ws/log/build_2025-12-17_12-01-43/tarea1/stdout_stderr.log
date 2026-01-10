@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[ 33%] Built target posicion_control
+[ 33%] Built target posicion
+[ 50%] Built target circulo
+[ 66%] Built target follow
+[ 83%] Built target velocidad
+[ 91%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/sensor.cpp.o[0m
+[01m[K/home/maria/rob_ws/src/tarea1/src/sensor.cpp:[m[K In member function ‘[01m[Kvoid MM::sensor_callback(geometry_msgs::msg::Vector3_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maria/rob_ws/src/tarea1/src/sensor.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstaculo_cerca[m[K’ was not declared in this scope
+   38 |         [01;31m[Kobstaculo_cerca[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/sensor.cpp:39:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstaculo_cerca[m[K’ was not declared in this scope
+   39 |     }else if ([01;31m[Kobstaculo_cerca[m[K == true){
+      |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sensor.dir/build.make:76: CMakeFiles/sensor.dir/src/sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

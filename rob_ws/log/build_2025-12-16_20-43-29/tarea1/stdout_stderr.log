@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target follow[0m
+[35m[1mConsolidate compiler generated dependencies of target posicion_control[0m
+[ 40%] Built target posicion
+[ 40%] Built target velocidad
+[ 60%] Built target circulo
+[ 80%] Built target posicion_control
+[ 90%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+In file included from [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:1[m[K:
+[01m[K/home/maria/rob_ws/src/tarea1/include/tarea1/follow.hpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+   10 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/include/tarea1/follow.hpp:35:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   35 |     [01;31m[Kint[m[K i = 0;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:[m[K In member function ‘[01m[Kvoid MM::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:36:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   36 |     float dx = posiciones[[01;31m[Ki[m[K][0]-pos_x;
+      |                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/follow.dir/build.make:76: CMakeFiles/follow.dir/src/follow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/follow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

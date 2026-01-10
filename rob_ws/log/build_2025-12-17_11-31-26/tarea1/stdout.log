@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[ 33%] Built target posicion
+[ 33%] Built target posicion_control
+[ 66%] Built target circulo
+[ 66%] Built target follow
+[ 83%] Built target velocidad
+[ 91%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/sensor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sensor[0m
+[100%] Built target sensor
+-- Install configuration: ""
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/velocidad
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/circulo
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion_control
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/follow
+-- Installing: /home/maria/rob_ws/install/tarea1/lib/tarea1/sensor
+-- Set runtime path of "/home/maria/rob_ws/install/tarea1/lib/tarea1/sensor" to ""
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/package_run_dependencies/tarea1
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/parent_prefix_path/tarea1
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.sh
+-- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.sh
+-- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.dsv
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.bash
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.sh
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.zsh
+-- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.dsv
+-- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/package.dsv
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/packages/tarea1
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config.cmake
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config-version.cmake
+-- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/package.xml

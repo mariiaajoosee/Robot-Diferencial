@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target posicion_control[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target follow[0m
+[0.057s] [ 20%] Built target circulo
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/posicion_control.dir/src/posicion_control.cpp.o[0m
+[0.060s] [ 60%] Built target velocidad
+[0.063s] [ 80%] Built target posicion
+[1.577s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:[m[K In member function ‘[01m[Kvoid MM::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.577s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:36:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kposiciones[m[K’ was not declared in this scope
+[1.577s]    36 |     float dx = [01;31m[Kposiciones[m[K[i][0]-pos_x;
+[1.577s]       |                [01;31m[K^~~~~~~~~~[m[K
+[1.580s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:36:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.580s]    36 |     float dx = posiciones[[01;31m[Ki[m[K][0]-pos_x;
+[1.580s]       |                           [01;31m[K^[m[K
+[1.584s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+[1.584s]    40 |     [01;31m[Kdistancia[m[K = std::sqrt(std::pow(dx, 2) + std::pow(dy, 2));
+[1.584s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.587s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdif[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+[1.587s]    41 |     [01;31m[Kdif[m[K = theta - orientacion;
+[1.587s]       |     [01;31m[K^~~[m[K
+[1.587s]       |     [32m[Kdiv[m[K
+[3.304s] gmake[2]: *** [CMakeFiles/follow.dir/build.make:76: CMakeFiles/follow.dir/src/follow.cpp.o] Error 1
+[3.304s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/follow.dir/all] Error 2
+[3.304s] gmake[1]: *** Waiting for unfinished jobs....
+[5.393s] [ 90%] [32m[1mLinking CXX executable posicion_control[0m
+[5.692s] [ 90%] Built target posicion_control
+[5.693s] gmake: *** [Makefile:146: all] Error 2
+[5.695s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12

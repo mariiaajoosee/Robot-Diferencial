@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target follow[0m
+[0.052s] [ 14%] Built target circulo
+[0.054s] [ 28%] Built target posicion
+[0.054s] [ 42%] Built target velocidad
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+[0.057s] [ 64%] Built target posicion_control
+[0.057s] [ 78%] Built target sensor_simple
+[0.057s] [ 92%] Built target sensor
+[5.341s] [100%] [32m[1mLinking CXX executable follow[0m
+[5.594s] [100%] Built target follow
+[5.603s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[5.604s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maria/rob_ws/build/tarea1
+[5.610s] -- Install configuration: ""
+[5.610s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1
+[5.610s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/velocidad
+[5.610s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion
+[5.610s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/circulo
+[5.611s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion_control
+[5.611s] -- Installing: /home/maria/rob_ws/install/tarea1/lib/tarea1/follow
+[5.614s] -- Set runtime path of "/home/maria/rob_ws/install/tarea1/lib/tarea1/follow" to ""
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/sensor
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/sensor_simple
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/package_run_dependencies/tarea1
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/parent_prefix_path/tarea1
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.sh
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.dsv
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.sh
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.dsv
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.bash
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.sh
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.zsh
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.dsv
+[5.614s] -- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/package.dsv
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/packages/tarea1
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config.cmake
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config-version.cmake
+[5.614s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/package.xml
+[5.616s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maria/rob_ws/build/tarea1

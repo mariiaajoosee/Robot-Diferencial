@@ -1,0 +1,18 @@
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:[m[K In member function ‘[01m[Kvoid MM::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:36:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kposiciones[m[K’ was not declared in this scope
+   36 |     float dx = [01;31m[Kposiciones[m[K[i][0]-pos_x;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:36:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   36 |     float dx = posiciones[[01;31m[Ki[m[K][0]-pos_x;
+      |                           [01;31m[K^[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   40 |     [01;31m[Kdistancia[m[K = std::sqrt(std::pow(dx, 2) + std::pow(dy, 2));
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdif[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   41 |     [01;31m[Kdif[m[K = theta - orientacion;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kdiv[m[K
+gmake[2]: *** [CMakeFiles/follow.dir/build.make:76: CMakeFiles/follow.dir/src/follow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/follow.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

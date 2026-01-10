@@ -1,0 +1,24 @@
+teleop_twist_joy:
+  ros__parameters:
+    # --- Configuración de los sticks ---
+    axis_linear:
+      x: 1        # índice del eje Y del stick izquierdo (adelante/atrás)
+    scale_linear:
+      x: 0.5      # velocidad máxima lineal normal (m/s)
+
+    axis_angular:
+      yaw: 0      # índice del eje X del stick izquierdo (izquierda/derecha)
+    scale_angular:
+      yaw: 0.5    # velocidad máxima angular normal (rad/s)
+
+    # --- Botón de seguridad ---
+    enable_button: 4        # botón que habilita el movimiento (ej. LB/L)
+    require_enable_button: true
+
+    # --- Botones para giro sobre sí mismo ---
+    left_turn_button: 6     # índice del botón ZL (giro fijo a la izquierda)
+    right_turn_button: 7    # índice del botón ZR (giro fijo a la derecha)
+
+    # --- Escalas de giro fijo ---
+    left_turn_scale: 1.5    # velocidad angular positiva (izquierda)
+    right_turn_scale: -1.5  # velocidad angular negativa (derecha)

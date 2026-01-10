@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target follow[0m
+[ 40%] Built target velocidad
+[ 40%] Built target circulo
+[ 50%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+[ 70%] Built target posicion
+[ 90%] Built target posicion_control
+In file included from [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:1[m[K:
+[01m[K/home/maria/rob_ws/src/tarea1/include/tarea1/follow.hpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+   10 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/follow.dir/build.make:76: CMakeFiles/follow.dir/src/follow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/follow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

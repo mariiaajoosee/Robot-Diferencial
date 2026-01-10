@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target follow[0m
+[0.062s] [ 14%] Built target posicion_control
+[0.062s] [ 28%] Built target velocidad
+[0.063s] [ 42%] Built target circulo
+[0.064s] [ 71%] Built target sensor_simple
+[0.064s] [ 71%] Built target posicion
+[0.065s] [ 85%] Built target sensor
+[0.066s] [ 92%] [32mBuilding CXX object CMakeFiles/follow.dir/src/follow.cpp.o[0m
+[1.543s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:[m[K In member function ‘[01m[Kvoid MM::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.543s] [01m[K/home/maria/rob_ws/src/tarea1/src/follow.cpp:39:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::array<float, 2> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.543s]    39 |     if ([01;35m[Ki >= posiciones.size()[m[K) {
+[1.543s]       |         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[5.296s] [100%] [32m[1mLinking CXX executable follow[0m
+[5.544s] [100%] Built target follow
+[5.553s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maria/rob_ws/build/tarea1 -- -j12 -l12
+[5.554s] Invoking command in '/home/maria/rob_ws/build/tarea1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maria/rob_ws/build/tarea1
+[5.560s] -- Install configuration: ""
+[5.560s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1
+[5.560s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/velocidad
+[5.560s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion
+[5.560s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/circulo
+[5.560s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/posicion_control
+[5.560s] -- Installing: /home/maria/rob_ws/install/tarea1/lib/tarea1/follow
+[5.563s] -- Set runtime path of "/home/maria/rob_ws/install/tarea1/lib/tarea1/follow" to ""
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/sensor
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/lib/tarea1/sensor_simple
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/package_run_dependencies/tarea1
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/parent_prefix_path/tarea1
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.sh
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/ament_prefix_path.dsv
+[5.563s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.sh
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/environment/path.dsv
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.bash
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.sh
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.zsh
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/local_setup.dsv
+[5.564s] -- Installing: /home/maria/rob_ws/install/tarea1/share/tarea1/package.dsv
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/ament_index/resource_index/packages/tarea1
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config.cmake
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/cmake/tarea1Config-version.cmake
+[5.564s] -- Up-to-date: /home/maria/rob_ws/install/tarea1/share/tarea1/package.xml
+[5.566s] Invoked command in '/home/maria/rob_ws/build/tarea1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maria/rob_ws/build/tarea1

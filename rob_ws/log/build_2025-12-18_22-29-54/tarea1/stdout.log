@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target mando[0m
+[ 12%] Built target velocidad
+[ 25%] Built target follow
+[ 37%] Built target circulo
+[ 50%] Built target sensor_simple
+[ 62%] Built target posicion_control
+[ 75%] Built target sensor
+[ 87%] Built target posicion
+[ 93%] [32mBuilding CXX object CMakeFiles/mando.dir/src/mando.cpp.o[0m

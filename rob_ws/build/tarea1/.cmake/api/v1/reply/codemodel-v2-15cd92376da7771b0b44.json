@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d8bbb3632855dc83b32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tarea1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "circulo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circulo-57fa0e162fec542d31a5.json",
+					"name" : "circulo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow-a4075b8420807a5e8638.json",
+					"name" : "follow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mando::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mando-660de1c41d6947db5086.json",
+					"name" : "mando",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "posicion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-posicion-f9386f19bb27aaa993de.json",
+					"name" : "posicion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "posicion_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-posicion_control-b5a51b4fd1295b8607d9.json",
+					"name" : "posicion_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor-c6c6db7e42f104009d46.json",
+					"name" : "sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_simple-e83ed5fb01069319088a.json",
+					"name" : "sensor_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tarea1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tarea1_uninstall-2f2a651acc304a643b6d.json",
+					"name" : "tarea1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c9da9ed3592af50ccf6a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocidad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocidad-c8b91c726c0e68b97aaf.json",
+					"name" : "velocidad",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maria/rob_ws/build/tarea1",
+		"source" : "/home/maria/rob_ws/src/tarea1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

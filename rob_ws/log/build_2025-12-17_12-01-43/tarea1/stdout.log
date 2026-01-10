@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[ 33%] Built target posicion_control
+[ 33%] Built target posicion
+[ 50%] Built target circulo
+[ 66%] Built target follow
+[ 83%] Built target velocidad
+[ 91%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/sensor.cpp.o[0m

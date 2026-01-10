@@ -1,0 +1,17 @@
+/home/maria/rob_ws/build/tarea1/CMakeFiles/uninstall.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/tarea1_uninstall.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/velocidad.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/posicion.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/circulo.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/posicion_control.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/follow.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/sensor.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/sensor_simple.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/mando.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/test.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/edit_cache.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/rebuild_cache.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/list_install_components.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/install.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/install/local.dir
+/home/maria/rob_ws/build/tarea1/CMakeFiles/install/strip.dir

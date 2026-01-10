@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[ 16%] Built target circulo
+[ 25%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/sensor.cpp.o[0m
+[ 41%] Built target posicion
+[ 58%] Built target posicion_control
+[ 75%] Built target velocidad
+[ 91%] Built target follow
+[01m[K/home/maria/rob_ws/src/tarea1/src/sensor.cpp:[m[K In member function ‘[01m[Kvoid MM::sensor_callback(geometry_msgs::msg::Vector3_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maria/rob_ws/src/tarea1/src/sensor.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Twist = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kalinear[m[K’; did you mean ‘[01m[Klinear[m[K’?
+   36 |         cmd.[01;31m[Kalinear[m[K.x = 0;
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Klinear[m[K
+gmake[2]: *** [CMakeFiles/sensor.dir/build.make:76: CMakeFiles/sensor.dir/src/sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

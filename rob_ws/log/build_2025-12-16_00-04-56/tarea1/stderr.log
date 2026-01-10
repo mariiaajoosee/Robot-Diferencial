@@ -1,0 +1,25 @@
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:[m[K In constructor ‘[01m[KMM::MM()[m[K’:
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:10:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   10 |     sub_pose = this-> create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Pose>(
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:10:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |     sub_pose = this-> [01;31m[Kcreate_subscription<sensor_msgs::msg::Pose>[m[K(
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:11:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_callback[m[K’ is not a member of ‘[01m[KMM[m[K’
+   11 |         "/robot_pose", 10, std::bind(&MM::[01;31m[Kpose_callback[m[K, this, _1));
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktiempo[m[K’ was not declared in this scope
+   13 |     [01;31m[Ktiempo[m[K = 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:[m[K At global scope:
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:30:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MM::laser_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+   30 | void [01;31m[KMM[m[K::laser_callback(const geometry_msgs::msg::Pose::SharedPtr msg)
+      |      [01;31m[K^~[m[K
+[01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:30:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MM::laser_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/maria/rob_ws/src/tarea1/src/posicion.cpp:1[m[K:
+[01m[K/home/maria/rob_ws/src/tarea1/include/tarea1/posicion.hpp:5:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MM[m[K’ defined here
+    5 | class [01;36m[KMM[m[K : public rclcpp::Node
+      |       [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/posicion.dir/build.make:76: CMakeFiles/posicion.dir/src/posicion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/posicion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
